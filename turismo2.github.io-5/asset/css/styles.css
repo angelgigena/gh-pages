@@ -1,0 +1,410 @@
+@import url(avion.css);
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    /*background-color: lightskyblue;*/
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, rgba(38, 245, 236, 1) 0%, rgba(13, 178, 235, 1) 95%);
+    text-align: center;
+    width: fit-content;
+    min-width: 560px;
+    width: 100%
+}
+
+.conteiner {
+    display: flex;
+}
+
+.logo {
+
+    text-align: center;
+    display: inline;
+    border-radius: 15px;
+
+
+}
+
+.nav_pos {
+    /*  float: right;*/
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+
+.nav_pos2 {
+    float: right;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.nav_pos2 {
+    text-align: right;
+
+}
+
+
+
+.navegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+
+    /* background-color: lightgreen;*/
+    background: linear-gradient(90deg, rgba(99, 89, 249, 1) 0%, rgba(13, 215, 196, 1) 88%);
+    /* Cambia esto al color que desees */
+    color: #fff;
+    /* Cambia esto al color del texto que desees */
+    padding: 10px 0;
+    /* Añade relleno para el contenido de la barra de navegación */
+    /*z-index: 1000;*/
+
+}
+
+.navegacion_p {
+    text-align: center;
+    display: inline, block;
+    background-color: lightseagreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /*background: linear-gradient(90deg, rgba(58, 154, 200, 1) 0%, rgba(58, 154, 208, 1) 30%, rgba(0, 212, 255, 1) 100%);*/
+
+    border-radius: 10px;
+
+}
+
+.login_registro {
+    padding-left: 50%;
+
+
+
+}
+
+.login_registro>li>a {
+
+    border: 2px dotted black;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+
+
+li {
+
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+li>a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+nav {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+
+}
+
+h2>a {
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra con desplazamiento de 2px en horizontal y 2px en vertical, opacidad 0.5 */
+
+}
+
+h4 {
+    color: white;
+}
+
+.imagenArticulos {
+    padding-right: 50px;
+}
+
+main {
+    /*flex: 2;*/
+    margin-top: 250px;
+    background: radial-gradient(circle, rgba(38, 245, 236, 1) 0%, rgba(13, 178, 235, 1) 95%);
+    width: fit-content;
+
+}
+
+.cordoba {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.articulo1 {
+    border: 2px solid black;
+    border-radius: 15px;
+    position: static;
+    text-align: center;
+    width: fit-content;
+
+}
+
+.parrafo {
+
+    font-size: 1.5rem;
+    /*min-width: 400px;*/
+    font-weight: bold;
+    padding: 0 5%
+}
+
+.articulo1div {
+    /* margin: 0 20% 0 15%;*/
+    text-align: justify;
+
+}
+
+
+
+
+
+footer {
+
+    width: 100%;
+
+
+    /*display: flexbox;*/
+    /*bottom: 0;*/
+
+    background: linear-gradient(90deg, rgba(99, 89, 249, 1) 0%, rgb(13, 217, 196) 88%);
+    /*text-align: center;*/
+
+}
+
+.derechos {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+
+.container__redes-link {
+    display: inline-block;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.animated-text {
+    position: relative;
+    bottom: 80%;
+    font-size: 200%;
+    animation: animateText 5s 5 alternate;
+
+
+}
+
+@media (max-width:600px) {
+    .animated-text {
+        display: none;
+        font-size: 100%
+    }
+}
+
+@keyframes animateText {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        color: black;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+        color: white;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        color: black;
+    }
+}
+
+
+.generalbelgrano,
+.villamaria,
+.lafalda {
+    margin-top: 250px;
+}
+
+.formlogin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formlogin2 {
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+}
+
+/* STYLE PARA BODY NOSOTROS*/
+
+.container_nosotros {
+    margin: 20px 30px;
+    padding: 20px;
+}
+
+.nosotros-historia,
+.nosotros-mision,
+.nosotros-vision {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+}
+
+.nosotros-historia p,
+.nosotros-mision p,
+.nosotros-vision p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.nosotros-historia img,
+.nosotros-mision img,
+.nosotros-vision img {
+    width: 100%;
+}
+
+.nosotros-historia img:hover,
+.nosotros-mision img:hover,
+.nosotros-vision img:hover {
+    border: 1px solid #fff;
+}
+
+.nosotros-mision h4,
+.nosotros-vision h4,
+.nosotros-historia h4 {
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nosotros-historia h4:hover,
+.nosotros-mision h4:hover,
+.nosotros-vision h4:hover {
+    color: rgba(99, 89, 249, 1);
+    transition: all 1s;
+}
+
+.parrafos_txt::first-letter {
+    /*PSEUDOELEMENTO*/
+    initial-letter: 2;
+    font-weight: bold;
+    color: #fff;
+}
+
+hr {
+    border: 1px solid #fff;
+}
+
+/* STYLE PAG CONTACTO */
+
+.seccion_gps {
+    margin-top: 300px;
+    margin-bottom: 20px;
+    top: 300px;
+}
+.encabezado_h2{
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: underline;
+}
+.encabezado_h2:hover{
+    font-size: 1.5em;
+    color: #2f6627;
+    transition: all 1s linear;
+}
+
+.titulo_h1 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.form_contacto {
+    padding: 20px;
+}
+
+.seccion_form {
+    margin: 0 auto;
+    text-align: left;
+    border: 5px dotted #3dc21b;
+    padding: 20px;
+    margin: 0 30vw;
+}
+.seccion_form:hover {
+    border: 5px dotted  #fff;
+    transition: all .5s linear;
+
+}
+
+.seccion_form input {
+    border: 2px solid rgb(255, 255, 255);
+}
+.seccion_form textarea {
+    width: 90%;
+    overflow-y: auto;
+    border: 3px solid #fff;
+}
+.buttton_form {
+    box-shadow: 0px 0px 0px 2px #3dc21b;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: #44c767;
+    border-radius: 10px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin: 5px 10px;
+}
+
+.buttton_form:hover {
+    background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    background-color: #5cbf2a;
+}
+
+.buttton_form:active {
+    position: relative;
+    top: 1px;
+}
